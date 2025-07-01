@@ -1,0 +1,54 @@
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2019\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2019\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include\\clang\\3.3"
+	"C:\\Program Files\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files\\IVI Foundation\\VISA\\win64\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "ProcessAudio.c" = "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)" ;
+LOCATE on "TONE.h" = "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)" ;
+Object "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\ProcessAudio.obj" : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\ProcessAudio.c" ;
+FILENUM on "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\ProcessAudio.obj" = 1 ;
+DEFPROTS on "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\ProcessAudio.obj" = "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\ProcessAudio.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\ProcessAudio.obj" = "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\ProcessAudio.obj.out" ;
+PrjObjects += "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\ProcessAudio.obj" ;
+Object "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\TONE.h.hdefs" : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\TONE.h" ;
+FILENUM on "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\TONE.h.hdefs" = 2 ;
+OUTFILE on "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\TONE.h.hdefs" = "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\TONE.h.hdefs.out" ;
+PreLinkInputs += "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.in.rc" ;
+PreLinkInputs += $(PrjObjects) $(InstrObjects) ;
+PreLinkOutputs += "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.out.rc" ;
+PreLinkOutputs += "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\termprojectpart1.dll.defs" ;
+PreLink $(PreLinkOutputs) : $(PreLinkInputs) ;
+Depends "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\termprojectpart1.dll" : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\termprojectpart1.dll.defs" ;
+Object "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.res" : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.out.rc" ;
+Depends "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.res" : $(PreLinkOutputs) ;
+Depends "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.res" "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.out.rc" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.res" : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\manifest.xml" ;
+MainFromObjects "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\termprojectpart1.dll" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\termprojectpart1.dll" : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\link_options.txt" ;
+Depends "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\termprojectpart1.dll" : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\dependencies.lnk.in" ;
+Depends "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\termprojectpart1.dll" : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\resources.res" ;
+Depends all : "c:\\Users\\hsnct\\Downloads\\BAHAR\\EE433 - Real-Time Applications of Digital Signal Processing\\433\\Yeni klasör (2)\\cvibuild.termprojectpart1\\Release64\\termprojectpart1.dll" ;

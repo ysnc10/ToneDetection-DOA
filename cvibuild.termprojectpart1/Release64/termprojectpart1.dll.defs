@@ -1,0 +1,5 @@
+LIBRARY termprojectpart1
+
+EXPORTS
+EstimateDOA
+ProcessAudio

@@ -1,0 +1,20 @@
+[fft]
+Class="Function"
+Prototype="void fft(struct Complex *x, int N);"
+SourceLocation="c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\ProcessAudio.c:15:1"
+
+[cfar]
+Class="Function"
+Prototype="void cfar(double sample_rate, double *magnitudes, int N, double thresholdOffset_dB, double *peak_freq);"
+SourceLocation="c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\ProcessAudio.c:47:1"
+
+[ProcessAudio]
+Class="Function"
+Prototype="void ProcessAudio(double *input, int length, double sample_rate, double *mag_out, double *peaks, int *tone_detected, double *time_xaxis) __declspec(dllexport);"
+SourceLocation="c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\ProcessAudio.c:105:1"
+
+[EstimateDOA]
+Class="Function"
+Prototype="void EstimateDOA(double *mic1, double *mic2, int length, double sample_rate, double mic_distance, double *doa_angle_deg, int *tone_detected, double *tone_frequency, double *out_tone, double *doaplot) __declspec(dllexport);"
+SourceLocation="c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\ProcessAudio.c:135:1"
+

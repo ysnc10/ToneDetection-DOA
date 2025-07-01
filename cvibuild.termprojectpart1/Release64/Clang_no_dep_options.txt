@@ -1,0 +1,1 @@
+-force-include-file "ProcessAudio.c";"c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\ProcessAudio.c" -force-include-file "TONE.h";"c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\TONE.h" 

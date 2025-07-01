@@ -1,0 +1,6 @@
+-inrc c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\cvibuild.termprojectpart1\Release64\resources.in.rc
+-outrc c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\cvibuild.termprojectpart1\Release64\resources.out.rc
+-inhdef c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\cvibuild.termprojectpart1\Release64\TONE.h.hdefs
+-outdef c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\cvibuild.termprojectpart1\Release64\termprojectpart1.dll.defs
+-indefprot c:\Users\hsnct\Downloads\BAHAR\EE433 - Real-Time Applications of Digital Signal Processing\433\Yeni klasör (2)\cvibuild.termprojectpart1\Release64\ProcessAudio.obj.cvidefprots
+-dllName termprojectpart1.dll
