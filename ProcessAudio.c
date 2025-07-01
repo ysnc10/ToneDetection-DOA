@@ -1,4 +1,4 @@
-/* tone_detector.c - C code for Task 1 of EE433 Project */
+/* tone_detector.c - C code for Project */
 
 #include <math.h>
 #include <stdint.h>
