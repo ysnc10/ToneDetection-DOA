@@ -1,4 +1,4 @@
-# EE433 - Tone Detection and DOA Estimation
+Tone Detection and DOA Estimation
 
 This project implements real-time tone detection and direction-of-arrival (DOA) estimation using the C language. It is designed for integration with LabVIEW via DLLs.
 
